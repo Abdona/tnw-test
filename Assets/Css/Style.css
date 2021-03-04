@@ -160,6 +160,10 @@ body {
 }
 
 /* latest funding */
+.founding-cnt {
+  margin-bottom: 40px;
+}
+
 .fndg-3 img {
   width: 60px;
   height: 60px;
@@ -179,6 +183,10 @@ body {
   display: block;
 }
 
+.fng-row {
+  background-color: rgba(71.8%, 43.1%, 47.5%, 0.06);
+}
+
 .fng-row .fng-head {
   background-color: #f00000;
 }
@@ -195,6 +203,17 @@ body {
 
 .ltst-fndg {
   padding: 16px;
+}
+
+.ltst-fndg h2 {
+  margin-bottom: 6px;
+  font-size: 2.1rem;
+  color: #f42;
+  font-weight: bold;
+}
+
+.ltst-fndg ul {
+  line-height: 1.7;
 }
 
 .foot-botm div {
@@ -221,6 +240,8 @@ body {
 .tnw-foot {
   margin-top: 70px;
   padding: 1px;
+  position: relative;
+  text-align: center;
   background-color: #131313;
 }
 
@@ -233,10 +254,6 @@ body {
 .foot-botm p {
   margin-right: 8px;
   color: #aaa;
-}
-
-.foot-lst ul li:last-child {
-  left: 35%;
 }
 
 .foot-icn {
@@ -256,10 +273,9 @@ body {
 }
 
 .foot-lst {
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 2%;
-  width: 77%;
+  display: flex;
+  justify-content: center;
 }
 
 .footnav3-itm {
@@ -268,7 +284,6 @@ body {
 
 .foot-botm {
   background-color: #000;
-  padding-left: 2.2em;
 }
 
 .foot-botm div p {
@@ -286,7 +301,7 @@ body {
 }
 
 .stpth {
-  width: 19%;
+  width: 10%;
   margin-top: 10px;
 }
 
@@ -367,8 +382,8 @@ body {
     grid-row: 1/8;
   }
 
-  .nav-logo img {
-    margin: 21px;
+  .nav-logo svg {
+    margin: 1.2em;
   }
 
   .na-4 {
@@ -618,5 +633,13 @@ body {
 
   .main-sec {
     top: 77px;
+  }
+
+  .foot-botm div {
+    padding-top: 0%;
+  }
+
+  .foot-botm div p {
+    bottom: 6px;
   }
 }
